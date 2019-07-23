@@ -1,0 +1,8 @@
+{
+    "name": "hkui/process_manager",
+    "description": "master-worker进程任务管理,以守护进程方式运行,自动重启worker",
+    "type": "project",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "require": {}
+}
