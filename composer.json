@@ -6,5 +6,10 @@
         "ext-swoole": ">=4.2"
     },
     "license": "mit",
-    "minimum-stability": "beta"
+    "minimum-stability": "beta",
+    "autoload": {
+        "psr-4": {
+            "ProcessManager\\": "src/"
+        }
+    }
 }
