@@ -1,10 +1,10 @@
 <?php
 
 
-require './vendor/autoload.php';
+require '../../../vendor/autoload.php';
 use ProcessManager\Process;
 
-class myprocess extends Process
+class demo extends Process
 {
     public function runJob($worker, $index)
     {
@@ -34,5 +34,5 @@ $config=[
     'out_file'=>'/tmp/out'
 ];
 
-$process=new myprocess($config);
+$process=new demo($config);
 $process->run($cmd);
