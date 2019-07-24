@@ -18,7 +18,7 @@ abstract class Process
 
     public $max_run_time = 100;  //子进程运行多少次会退出 0代表不退出
 
-    
+
 
     protected $master_pid;
     protected $wokers = [];
