@@ -4,7 +4,7 @@ master-worker进程任务管理,以守护进程方式运行,自动重启worker
 
 需要swoole和posix
 
-0.2
+0.3
 
 ### 使用
 1.使用composer安装即可
